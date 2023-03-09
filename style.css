@@ -1,0 +1,19 @@
+*{margin: 0px; box-sizing: border-box;}
+body{font-size: 14px; font-family: Arial, Helvetica, sans-serif;}
+.container{max-width: 1400px; margin: 0px auto !important;}
+.d-flex{display: flex;}
+.space-between{justify-content: space-between; align-items: center;}
+
+.navbar{background-color: white; color: white;}
+.menu ul{list-style-type: none; display: inline-flex; padding: 20px;}
+.menu ul li a{text-decoration: none; padding: 20px 0px; color: black; display: inline-block;
+    margin-left: 15px;
+}
+.menu ul li:nth-child(1) a{margin: 0px;}
+.menu ul li ul{display: none; position: absolute; background-color: whitesmoke; padding: 10px; 
+min-width: 150px;}
+.menu ul li:hover ul{display: block;}
+.menu ul li ul li a{padding: 10px; color: black;}
+.menu ul li ul li:hover a{color: #064acb;}
+.logo_area{padding: 30px 0px;}
+
