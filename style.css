@@ -1,17 +1,17 @@
-.abc{display: none;position: absolute;}
-.container{background-color: white; display: flex;justify-content: space-between;}
-.logo{padding: 15px 55px;}
-.logo1{padding-right: 50px;}
-a{text-decoration: none; padding: 3px 5px; margin: 3px 5px;}
-.menu ul li{display: inline-block;padding: 25px;}
-.logo1 ul li{display: inline-block;padding: 25px 10px;}
-a:hover{color: red;}
-.we:hover .abc{
+.container{max-width: 100%;}
+.navbar{display: flex;justify-content: space-between;}
+.menu ul{display: inline-flex;padding: 0px;}
+.menu ul li{list-style-type: none;}
+.menu ul li a{padding: 10px 20px ; text-decoration: none;color: green}
+.menu ul li ul{position: absolute; display: none;min-width: 10px;padding: 0px;}
+.menu ul li:hover ul{
     display: block;
+    background-color: red;
 }
-li{
-    display: block;
-}
-.abc a{display: block;
-position: relative;;}
+.menu ul li:hover .aaa{border-bottom: solid 1px;}
+.menu ul li ul li:hover .aaaa{border-bottom: solid 1px;}
 
+
+.icon ul{display: flex; list-style-type: none;}
+.icon ul li{padding: 5px 10px;}
+.icon ul li a{color: red;}
